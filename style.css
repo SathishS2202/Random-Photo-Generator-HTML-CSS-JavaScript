@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fdfdfd;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+.photo-box {
+  background-color: #a32626;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-gap: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.photo-box img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+.btn-container {
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a32626;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #831f1f;
+}
